@@ -23,16 +23,14 @@ Code snippet - Testing code that reads system clock
 ```
 from datetime import datetime
 
-
 def stamp_log_entry(message, current_time):
     return f"{current_time.isoformat()} {message}"
 
-
-def test_stamp_log_entry_at_midnight():
+def test_stamp_log_entry():
     fake_time = datetime(2026, 7, 7, 23, 59, 59)
 
     result = stamp_log_entry(
-        "wafer lot 42 started",
+        "System started",
         fake_time
     )
 

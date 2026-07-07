@@ -55,47 +55,47 @@ def test_user_role(sample_user):
     assert sample_user["role"] == "engineer"
 ```
 
-4. After finishing a cell layout, an engineer needs to prove that what she drew actually
+3. After finishing a cell layout, an engineer needs to prove that what she drew actually
 implements the transistors and connections in the schematic, not merely that the shapes
 are legal. She works through the verification flow to pick the right check for that job.
 Which check confirms the layout matches the schematic netlist?
 
 		A. LVS
 
-5. Tuning an analog block, an engineer adjusts the W and L values on a Metal-Oxide-
+4. Tuning an analog block, an engineer adjusts the W and L values on a Metal-Oxide-
 Semiconductor Field-Effect Transistor (MOSFET) instance and watches the drive current change.
 A colleague new to device design asks what those two parameters actually
 correspond to. For a MOSFET, the parameters W and L refer to...
 
 		C. Transistor channel width and length
 
-6. During a code review on the deck-automation tool, a senior engineer flags a sprawling
+5. During a code review on the deck-automation tool, a senior engineer flags a sprawling
 helper and cites the Single Responsibility Principle (SRP). To confirm the new hire
 grasped the feedback, she poses a quick definition check. The SRP says a unit should...
 
 		A. Have one reason to change
 
-7. Debugging a flaky unit test on the metrics tool, an engineer suspects one function is not
+6. Debugging a flaky unit test on the metrics tool, an engineer suspects one function is not
 behaving consistently between runs. A colleague suggests rewriting it as a ’pure function’
 and first checks that the team agrees on what that term means. A ’pure function’...
 
 		D. Returns the same output for the same input with no side effects
 
-8. Your team has just enabled GitHub Copilot, and you watch it autocomplete an entire
+7. Your team has just enabled GitHub Copilot, and you watch it autocomplete an entire
 function in seconds. It is tempting to accept everything, but these Artificial Intelligence
 (AI) assistants sometimes produce plausible-looking yet wrong code. Thinking about
 good practice, using GitHub Copilot or other AI assistants, you should...
 
 		D. Use it to help, but review, test and verify the output
 
-9. A colleague promised to review your migration script, but two days have passed with
+8. A colleague promised to review your migration script, but two days have passed with
 no response and your Task is frozen. The sprint is ticking by, your stand-up update
 keeps reading ’still blocked,’ and you sense you cannot simply keep waiting. You’ve
 been blocked waiting on someone for two days. Best action?
 
 		A. Raise it as an Issue and seek the right person
 
-10. A new engineer is about to complete their first Pull Request (PR) at GlobalFoundries
+9. A new engineer is about to complete their first Pull Request (PR) at GlobalFoundries
 (GF) and wants to get it right the first time, because the branch policy will block the
 merge button until every required condition is met. They have heard there are several
 gates - approvals, linkage, build status, merge style - and are trying to recall the exact
@@ -103,7 +103,7 @@ set the team enforces. Which combination satisfies the team’s PR review policy
 
 		B. 2 approvals, linked item, resolved comments, rebase & fast-forward, successful build
 
-11. At GlobalFoundries (GF), a new platform team is told their next deliverable will be a
+10. At GlobalFoundries (GF), a new platform team is told their next deliverable will be a
 Domain-Specific Language (DSL) for capturing design rules, rather than another pile
 of Python scripts. A junior engineer, hearing the term for the first time in a kickoff
 meeting, wants to nail down the basic concept before diving in. A DSL is...
